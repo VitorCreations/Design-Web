@@ -1,0 +1,12 @@
+body {
+    background-color: beige;
+    color: brown;
+}
+h1 {
+    text-align: center;
+}
+li{
+    list-style-position: outside;
+    list-style-type: decimal;
+
+}
