@@ -1,0 +1,23 @@
+body {
+    background-color: beige;
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+ol{
+    display: flex;
+    text-align: center;
+    border-color: violet;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+    text-align: center;
+    background-color: white;
+    margin: 1em;
+}
