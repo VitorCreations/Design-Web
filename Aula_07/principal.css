@@ -1,0 +1,28 @@
+ul{
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    padding-left: 31em;
+}
+ol{
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    padding-left: 37em;
+}
+li{
+    padding-left: 5em;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    text-decoration: none;
+    color: goldenrod;
+    
+}
+h2{
+    text-align: center;
+}
+body{
+    background-color: antiquewhite ;
+}
