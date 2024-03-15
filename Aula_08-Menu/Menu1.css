@@ -1,0 +1,46 @@
+body{
+    background-color: cadetblue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ol{
+    padding: 0;
+    text-align: center;
+}
+
+li{
+    display: inline;
+}
+
+a{
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: rgb(28, 73, 75);
+    color: white;
+    text-decoration: none;
+    font-size: 1.0em;
+    border-radius: 5px;
+}
+
+a:hover{
+    background-color: rgb(46, 123, 128);
+    border-bottom: 2px solid blue;
+    margin-bottom: 0;
+}
+
+a:visited{
+    font-style: italic;
+}
+
+a:active{
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
