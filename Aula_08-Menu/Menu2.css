@@ -25,10 +25,9 @@ ol a{
     text-decoration: none;
 }
 
-a img{
-    padding-left: 985px;
+figure{
+    text-align: center;
 }
-
 h1{
     text-align: center;
     background-color: rgb(240, 240, 127);
