@@ -1,0 +1,51 @@
+body{
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+table{
+    width: 70%;
+    height: 10em;
+    border: 1px black solid;
+    border-collapse: collapse;
+    background-color: blue;
+    margin: 0 auto;
+}
+
+th{
+    height: 3em;
+    background-color: red;
+    font-size: 1.5em;
+    color: white;
+    border: solid 1px black;
+}
+
+td{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 1.5em;
+    border-bottom: black solid 1px;
+    color: white;
+}
+
+caption{
+    font-size: 3em;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+caption img{
+    width: 5em;
+}
+
+td img{
+    height: 60px;
+    width: 60px;
+}
+
+th img{
+    width: 60px;
+    height: 60px;
+}
