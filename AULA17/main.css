@@ -1,0 +1,44 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+body{
+    display: flex;
+}
+header{
+    background-color: teal;
+    height: 100vh;
+}
+h1{
+    padding: 1em;
+    color: black;
+}
+header > ul > li {
+    padding-bottom: 0.5em;
+    font-size: 14pt;
+}
+div.container{
+    display: flex;
+}
+div.filho{
+    border: 2px solid black;
+    height: 14em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+div > ul{
+    display: flex;
+    justify-content: center;
+    padding: 1em 1em;
+    background-color: white;
+}
+div > a{
+    text-align: center;
+    background-color: wheat;
+    margin: 5em 1em;
+}
