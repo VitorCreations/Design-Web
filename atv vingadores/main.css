@@ -22,7 +22,7 @@ a{
     color: white;
 }
 main{
-    background-color: wheat;
+    background-color: rgb(240, 240, 240);
     height: 100%;
     max-width: 65%;
     margin: 0 auto;
