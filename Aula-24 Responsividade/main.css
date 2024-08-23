@@ -1,0 +1,36 @@
+body{
+    background-color: cadetblue;
+}
+
+@media screen and (max-width: 1000px) {
+    body{
+        background-color: aquamarine;
+    }
+}
+@media screen and (max-width: 800px) {
+    body{
+        background-color: red;
+    }
+    p{
+        display: block;
+    }
+}
+@media screen and (max-width: 500px) {
+    body{
+        background-color: rebeccapurple;
+    }
+    ol{
+        visibility: hidden;
+    }
+    
+}
+
+li{
+    display: inline;
+    padding: 20px 30px;
+    background-color: yellow;
+    color: violet;
+    border: black solid 1px;
+    text-decoration: none;
+    margin-left: 80px;
+}
