@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Inter';
+    font-weight: bold;
 }
 body{
     background-image: url(Images/Background\ \(1\).png);
@@ -10,27 +12,32 @@ header{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 0em 4em 0em 4em;
+        padding: 0em 12em 0em 12em;
     }
     #icones a{
         padding: 1em;
     }
     form{
-        width: 25%;
+        width: 45%;
         input{
-            width: 100%
+            width: 100%;
+            height: 3em;
+            border-radius: 2em;
+            border: solid #0076C0 3px;
+            padding-left: 5px;
         }
     }
     #menu{
         display: flex;
         justify-content: space-between;
-        border-top: 2.5px solid #0255b3;
-        border-bottom: 2.5px solid #0255b3;
-        padding: 3px 1em 3px 1em;
+        border-top: 2.5px solid #0076C0;
+        border-bottom: 2.5px solid #0076C0;
+        padding: 6px 3em 6px 3em;
+        color: #00ACE4;
+        font-size: 18pt;
     }
-    a{
-        text-decoration: none;
-    }
+
+    a{text-decoration: none;}
 }
 main{
     display: flex;
@@ -39,21 +46,42 @@ main{
     padding: 5em 12.5em;
 }
 footer{
-    padding: 2em 0;
-    margin: 0;
-    width: 100%;
-    height: 6em;
-    background-color: #00ACE4;
 
-    ul{
-        list-style-type: none;
-        display: flex;
+    padding: 2em 12em;
+    margin: 0;
+    height: 2.88em;
+    background-color: #00ACE4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    nav{display: flex;}
+    a{text-decoration: none;}
+
+    #contato{
+        flex-direction: column;
+        justify-content: space-evenly;
         align-items: center;
-        
-        li{
-            padding-left: 3em;
+
+        img{width: 1.5em;}
+    }
+
+    #redes{
+        flex-direction: column;
+        align-items: center;
+
+        #social{
+            display: flex;
+
+            img{
+                padding: 0 5px;
+                width: 1.5em;
+            }
         }
     }
 
-
+    nav#termos a{
+        padding: 0px 1em;
+        color: black;
+    }
 }

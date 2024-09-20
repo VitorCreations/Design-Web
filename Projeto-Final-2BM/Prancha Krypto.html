@@ -8,6 +8,42 @@
     <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
 </head>
 <body>
+    <style>
+        main{
+
+            align-items: flex-start;
+            color: #00ACE4;
+
+            div img{padding: 1em 1em 1em 0em;}
+
+            #nomeitem{
+                p{font-weight: normal;}
+                img{padding: 0.5em 0em;}
+                h2{
+                    font-size: 24pt;
+                }
+
+                #nsabecep{
+                    color: #FF7B43;
+                    text-decoration: none;
+                }
+
+                form{
+                    padding: 5px 0;
+                    input[type=text]{
+                        height: 2em;
+                    }
+                    input[type=button]{
+                        height: 30.66px;
+                        width: 2em;
+                        border: none;
+                        background-color: #0076C0;
+                        color: white;
+                    }
+                }
+            }
+        }
+    </style>
     <header>
         <div>
             <a href="index.html"><img src="Images/index/header/Logo (1).png" alt="Logo do site"></a>
@@ -34,9 +70,24 @@
     </header>
 
     <main>
-        <a href=""><img src="Images/index/main/Leash.png" alt=""></a>
-        <a href="boards.html"><img src="Images/index/main/Boards.png" alt=""></a>
-        <a href=""><img src="Images/index/main/Wax.png" alt=""></a>
+        <section id="fotos">
+            <img src="Images/Prancha Krypto/Krypto G.png" alt="">
+            <div>    
+                <img src="Images/Prancha Krypto/image 13.png" alt="">
+                <img src="Images/Prancha Krypto/image 14.png" alt="">
+                <img src="Images/Prancha Krypto/image 13 (1).png" alt="">
+            </div>
+        </section>
+        <section id="nomeitem">
+            <h2>Prancha de Surf Krypto</h2>
+            <img src="Images/Prancha Krypto/avali.png" alt="">
+            <p>Simule o Frete e prazo</p>
+            <form action="">
+                <input type="text">
+                <input type="button" value="OK">
+            </form>
+            <a id="nsabecep" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwi0o-OtxNGIAxUDq5UCHVdiAXUQFnoECBwQAQ&url=http%3A%2F%2Fwww.buscacep.correios.com.br%2F&usg=AOvVaw02Q27Gr8fAjPpn3fGbyWYJ&opi=89978449">Não sabe o CEP?</a>
+        </section>
     </main>
 
     <footer>
